@@ -1,11 +1,20 @@
 .spanBlock {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    color: black;
+    padding: 15px;
 }
 
 .span {
+    color: #3F9FFF;
 }
 
 .input {
+
+
 }
 
 .pen {
+    margin-right: 10px;
 }

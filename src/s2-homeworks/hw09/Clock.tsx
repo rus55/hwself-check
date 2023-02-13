@@ -31,10 +31,10 @@ function Clock() {
     const onMouseLeave = () => { // пишут студенты // спрятать дату если мышка не наведена
         setShow(false)
     }
-    let formatter = new Intl.DateTimeFormat('en-US', {
+    let formatter = new Intl.DateTimeFormat('ru', {
         hour: 'numeric',
         minute: 'numeric',
-        second: 'numeric'
+        second: "numeric"
     });
     let formatter4 = new Intl.DateTimeFormat('ru', {
         day: "numeric",

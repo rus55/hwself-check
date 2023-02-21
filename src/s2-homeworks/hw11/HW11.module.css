@@ -1,8 +1,14 @@
 .container {
+    margin-top: 50px;
 }
 
 .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
 }
 
 .number {
+    font-weight: bold;
+    margin: 0 15px;
 }

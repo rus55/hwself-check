@@ -2,6 +2,9 @@
 }
 
 .responseContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .imageContainer {
@@ -11,12 +14,16 @@
 }
 
 .textContainer{
+
+
 }
 
 .code {
+    font-weight: bold;
 }
 
 .text {
+    margin-top: 20px;
 }
 .info {
 }
